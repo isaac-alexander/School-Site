@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="school logo"></a>
+            <div class="nav-Links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laudantium, ducimus dolorum nihil
+                    assumenda quibusdam ratione quos cupiditate. Consectetur quibusdam porro eligendi dolor qui libero
+                    facilis saepe. Quam minima nihil molestias odio qui dolorum possimus, exercitationem non magnam
+                    dolores sed, quas optio provident. Voluptate veritatis, nobis exercitationem repellat repudiandae
+                    officia.</p>
+                <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="about">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <h4>Our Socials</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium accusamus cum ad beatae cupiditate
+            neque <br> harum, repudiandae pariatur minus. Unde veniam ut error magni dignissimos.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Javascript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
