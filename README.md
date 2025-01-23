@@ -1,2 +1,2 @@
-#University Website Design
+# University Website Design
 This is a responsive website design
